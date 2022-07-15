@@ -23,7 +23,8 @@ header {
     border-bottom: 1px solid seashell;
 }
 h2, h4 {
-    margin: 5px;
+    font-weight: bold;
+    margin: 0;
 }
 #logo {
     height: 50px;
@@ -39,14 +40,43 @@ h2, h4 {
     background-repeat: no-repeat;
     background-position: center;
     width: 1200px;
-    margi: 0px 20px;
+    margin: 0px 20px;
 }
 #mission-text {
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
+    justify-content: space-around;
     background-color: black;
     width: 1200px;
     height: 100px;
+}
+#featured-section {
+    width: 1000px;
+    margin-top: 70px;
+}
+#featured-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+#featured-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+figure {
+    margin: 0;
+    text-align: center;
+}
+figcaption {
+    margin-top: 10px;
 }
